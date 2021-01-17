@@ -5,5 +5,16 @@ I have used multiple cycleGAN models converting landscape images into different 
 
 With a CycleGAN you end up training two discriminators and two generators which are in a constant battle to lower their loss. Here is an example of the kaokore_face generator. It actually turned out quite well. After training this model for 100 epochs (4hrs on TPU's), I found that roughly 90% of the generated kaokore faces were quite good. The other 10% are ok, but they could be potentially improved by a longer training cycle, or improved model structure. 
 
-Here is an example of what the generator creates. 
+## Example
+
+![cycleGAN_example](https://github.com/brendanartley/Kaokore-Faces-CycleGAN/blob/main/CycleGan_example.png)
+
+
+## Files
+
+I have included the following files in the repository. To copy and run this code yourself please visit Kaggle Profile: https://www.kaggle.com/brendanartley to do so.
+
+
+
+
 
